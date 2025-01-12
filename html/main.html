@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road to Rich</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/main.css">   
+    <link rel="stylesheet" href="./CSS/map.css">   
+    <link rel="stylesheet" href="./CSS/text.css">
+    <link rel="stylesheet" href="./CSS/image.css">
+    <link rel="stylesheet" href="./CSS/containers.css">
+    <link rel="stylesheet" href="./CSS/btn.css">
+
+    <link rel="icon" href="./graphics/2.png">
+
+    <audio src="./audio/sword-sound-effect-2-234986.mp3" id="cashIn"></audio>
+    <audio src="./audio/click-234708.mp3" id="clickSound"></audio>
+
+</head>
+<body>
+    <div class="container">
+        <!--stats-->
+        <div class="item" id="i1">
+            <ul id="list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!--small map-->
+        <div class="item" id="i2" >
+            <img draggable="false" src="" alt="map" style="width: 115%; height: 100%;" id="map">
+        </div>
+        <!--map-->
+        <div id="modal" class="modal" style="grid-area: 1 / 1 / -1 / -1; display: none; z-index: 1; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.488);">
+            <div id="modalContent">
+                <img src="./graphics/map.png" alt="map" id="modalMap">
+                <span id="closebtn">&times;</span>
+                <p id="mapLocationDes">Teleport to: [choose a waypoint]</p>
+            </div>
+            <img class="mapTpBtn" id="groceryStore" src="./graphics/waypoint.png" alt="grocery Store">
+            <img class="mapTpBtn" id="newland" src="./graphics/waypoint.png" alt="newland">
+            <img class="mapTpBtn" id="shoppingMall" src="./graphics/waypoint.png" alt="shopping mall">
+            <img class="mapTpBtn" id="apartment" src="./graphics/waypoint.png" alt="apartment">
+            <img class="mapTpBtn" id="oakroad" src="./graphics/waypoint.png" alt="oakroad">
+            <img class="mapTpBtn" id="mansion" src="./graphics/waypoint.png" alt="mansion">
+        </div>
+        <!--trash-->
+        <div class="item" id="i3">
+            <img draggable="false" src="https://media.istockphoto.com/id/916115318/vector/plastic-garbage-ba.jpg?s=612x612&w=0&k=20&c=Mvcg6qzgDS9T-5l5PVCbUu6J70y4WlV1wHGzuuzzmBU=" alt="Trash" style="width: 15rem; height: 15rem;" id="trash" class="clickable">
+        </div>
+        <!--shop and prestige-->
+        <div class="item" id="i4">
+            <div id="texti4">
+                <p id="popupi4" style="visibility: hidden;">hello</p>
+            </div>
+            <div id="containeri4">
+                <img draggable="false" src="https://cdn-icons-png.flaticon.com/512/69/69986.png" alt="shop" style="width:2rem; height: 2rem;" id="shop" class="clickable">
+                <img draggable="false" src="https://www.svgrepo.com/show/211425/trophy-award.svg" alt="prestige" style="width:2rem; height: 2rem;" id="prestige" class="clickable">
+             </div>
+        </div>
+        <!--settings-->
+        <div class="item" id="i5"><img draggable="false" src="https://www.svgrepo.com/show/13688/settings.svg" alt="settings" id="settingSvg" class="clickable"></div>
+        <!--trash display-->
+        <div class="item" id="i6">
+            <p id="trashDisplay"></p>
+        </div>
+        <!--sell button-->
+        <div class="item" id="i7"><div>
+            <button id="sell">Sell</button></div>
+            <br>
+            <p id="des" style="opacity: 0;">Sell 50 [trash] for 10 [cash]</p>
+        </div>
+    </div>
+</body>
+    <script src="./JS/loadContent.js"></script>
+    <script src="./JS/css.js"></script>
+    <script src="./JS/map.js"></script>
+</html>

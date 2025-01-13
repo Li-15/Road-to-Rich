@@ -1,0 +1,80 @@
+#sell {
+    width: 5rem;
+    height: 1.2rem;
+    border: none;
+    border-radius: 0.1rem;
+    transition: 0.15s;
+}
+
+#sell:hover {
+    transition: 0.15s;
+    cursor: pointer;
+    background-color: #cf3b3b;
+    color: #fff;
+}
+
+#closebtn {
+    position: absolute;
+    font-size: 2rem;
+    margin-left: 0.2rem;
+    top: -0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+#closebtn:hover {
+    transition: 0.15s;
+    color: #cf3b3b87;
+}
+
+
+.mapTpBtn {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 0.1rem;
+    transition: 0.15s;
+}
+
+.mapTpBtn:hover {
+    transition: 0.15s;
+    transform: translateY(-0.1rem);
+    background-color: #cf3b3b00;
+}
+
+
+#groceryStore {
+    position: relative;
+    top: 5rem;
+    left: 17rem;
+}
+
+#newland {
+    position: relative;
+    top: 4.8rem;
+    left: 25.5rem;
+}
+
+#shoppingMall {
+    position: relative;
+    top: 7.9rem;
+    left: 35.9rem;
+}
+
+#apartment {
+    position: relative;
+    top: 15.9rem;
+    left: 12rem;
+}
+
+#oakroad {
+    position: relative;
+    top: 15.5rem;
+    left: 19rem;
+}
+
+#mansion {
+    position: relative;
+    top: 15.5rem;
+    left: 29rem;
+}

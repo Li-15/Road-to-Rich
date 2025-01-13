@@ -1,0 +1,18 @@
+li {
+    list-style-type: none;
+    margin: 0.3rem;
+    margin-left: 0.4rem;
+}
+
+#texti4 {
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+#mapLocationDes {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    color: rgb(86, 38, 38);
+}

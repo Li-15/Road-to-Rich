@@ -1,0 +1,13 @@
+#settingSvg {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+.clickable:hover {
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+}

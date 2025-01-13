@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+body {
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 40px;
+}
+
+.item {
+    margin: 0.1rem;
+}
+
+#i1 {
+    grid-area: 1 / 1 / 9 / 6;
+    padding: 0.2rem;
+}
+
+#i2 {
+    grid-area: 1 / 21 / 6 / 28;
+}
+
+#i3 {
+    grid-area: 4 / 10 / 11 / 18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#i4 {
+    grid-area: 12 / 1 / 15 / 6;
+}
+
+#i5 {
+    grid-area: 13 / 27 / -1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#i6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 13 / 3 / 16;
+}
+
+#i7 {
+    margin-top: 2rem;
+    grid-area: 12 / 13 / 13 /16;
+}
+
+#i8 {
+    margin: 0.3rem;
+    grid-area: 11 / 10 / 12 / 18;
+}

@@ -1,0 +1,16 @@
+#progress-container {
+    width: 100%;
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+#progress-bar {
+    height: 20px;
+    background: #4caf50;
+    width: 0%;
+    /* Progress starts at 0% */
+    transition: width 1s ease;
+    /* Smooth animation */
+}
